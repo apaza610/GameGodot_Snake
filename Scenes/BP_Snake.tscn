@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://bcnh6l1y7cr8f"]
+
+[ext_resource type="Texture2D" uid="uid://dy6cw6ud1sph2" path="res://Assets/T_Snake_Atlas.png" id="1_yqgwn"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_y28ef"]
+
+[node name="BP_Snake" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_yqgwn")
+centered = false
+region_enabled = true
+region_rect = Rect2(96, 0, 32, 32)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(16, 16)
+scale = Vector2(1.3, 1.3)
+shape = SubResource("CircleShape2D_y28ef")
