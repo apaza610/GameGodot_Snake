@@ -1,0 +1,1 @@
+first prototype, player doesnt loose snake does not detect collision with itself...![2024-03-2320_23_08](https://github.com/apaza610/GameGodot_Snake/assets/10149862/becfb0ad-8f51-45f3-b3ae-888aa7872dd2)
